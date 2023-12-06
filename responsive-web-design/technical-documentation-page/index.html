@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detoX README Page</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>detoX README</header>
+      <hr>
+      <p><a href="#detoX" class="nav-link">detoX</a></p>
+      <hr>
+      <p><a href="#Relevant_Links" class="nav-link">Relevant Links</a></p>
+      <hr>
+      <p><a href="#Local_Setup_and_Installation" class="nav-link long">Local Setup and Installation</a></p>
+      <hr>
+      <p><a href="#Built_With" class="nav-link">Built With</a></p>
+      <hr>
+      <p><a href="#Acknowledgements" class="nav-link">Acknowledgements</a></p>
+      <hr>
+      <p><a href="#Authors" class="nav-link">Authors</a></p>
+      <hr>
+    </nav>
+
+    <main id="main-doc">
+
+      <section class="main-section" id="detoX">
+        <header>detoX</header>
+        <hr class="title-hr">
+        <p>The detoX Browser Extension is a tool designed to enhance one's online experience by promoting a safer and more respectful digital environment.</p>
+        <p>Specifically tailored for the context of Philippine politics, this extension is engineered to detect and address hate speech in election-related and politics-related content on Twitter</p>
+        <p>It makes use of a fine-tuned BERT model, particularly the RoBERTa Tagalog Base variant, which was trained using a dataset containing tweets from the 20016 and 2022 Philippine elections.
+        <p>You can install the live extension from the Chrome Web Store!</p>
+      </section>
+      <hr>
+      <section class="main-section" id="Relevant_Links">
+        <header>Relevant Links</header>
+        <hr class="title-hr"
+        <h4>Datasets Used</h4>
+        <ul>
+          <li><strong>Hate Speech Filipino:</strong> hate_speech_filipino</li>
+          <li><strong>Combined Dataset:</strong> mapsoriano/2016_2022_hate_speech_filipino</li>
+        </ul>
+
+        <h4>Models</h4>
+        <ul>
+          <li><strong>RoBERTa Tagalog Base Model:</strong> jcblaise/roberta-tagalog-base</li>
+          <li><strong>Fine-tuned Model:</strong> mapsoriano/roberta-tagalog-base-philippine-elections-2016-2022-hate-speech</li>
+        </ul>
+
+        <h4>Browser Extension</h4>
+        <ul>
+          <li><strong>Chrome Web Store:</strong> detoX</li>
+        <ul>
+
+      </section>
+      <hr>
+      <section class="main-section" id="Local_Setup_and_Installation">
+        <header>Local Setup and Installation</header>
+        <hr class="title-hr">
+        <ol>
+          <li>Install the dependencies by runmning the command <code>npm install</code>.</li>
+          <li>Generate a production build using the command <code>npm run build</code>. This will create a <code>dist</code> folder containing the necessary files.</li>
+          <li>Open Google Chrome or any Chromium-based browser, and access the extensions page. In Google Chrome, this can be done by navigating to <code>chrome://extensions/</code>.</li>
+          <li>Enable <code>Developer mode</code> from the top-right corner fo the browser window.</li>
+          <li>Click on <code>Load unpacked</code>.</li>
+          <li>Select the generated <code>dist</code> folder.</li>
+          <li>Ensure that the detoX API is up and running.</li>
+          <li>You can now start usiong the detoX Browser Extension for Twitter.</li>
+      </section>
+      <hr>
+      <section class="main-section" id="Built_With">
+        <header>Built With</header>
+        <hr class="title-hr">
+        <img class="tools" src="https://skillicons.dev/icons?i=ts,react,webpack" alt="Tools used for building the detoX browser extension">
+        <p class="tools-text">TypeScript</p>
+        <p class="tools-text">React</p>
+        <p class="tools-text">Webpack</p>
+      </section>
+      <hr>
+      <section class="main-section" id="Acknowledgements">
+        <header>Acknowledgements</header>
+        <hr class="title-hr">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Contribution</th>
+            <tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dr. Mary Jane Rabena</td>
+              <td>Our Thesis Adviser</td>
+            </tr>
+            <tr>
+              <td>Dr. Arlan Dela Cruz</td>
+              <td>Our Thesis Co-Adviser</td>
+            </tr>
+            <tr>
+              <td>Ms. Abijah Louise Dela Cruz</td>
+              <td>Dataset Validator</td>
+            </tr>
+            <tr>
+              <td>Dr. Alma Theresa Manaloto</td>
+              <td>Expert Evaluator</td>
+            <tr>
+            <tr>
+              <td>Dr. Ocirne Jun-Jun Liwanag</td>
+              <td>Expert Evaluator</td>
+            </tr>
+            <tr>
+              <td>Mr. Marvin del Rosario</td>
+              <td>Expert Evaluator</td>
+            </tr>
+            <tr>
+              <td>Mr. John Montes</td>
+              <td>Expert Evaluator</td>
+            </tr>
+            <tr>
+              <td>Mr. Nelson Dizon</td>
+              <td>Expert Evaluator</td>
+            </tr>
+            <tr>
+              <td>Mr. Alberto Castro Jr.</td>
+              <td>Expert Evaluator</td>
+            </tr>
+            <tr>
+              <td>Mr. Blaise Crujz</td>
+              <td>Publisher of the RoBERTa Tagalog Base model and the Hate Speech Filipino Dataset</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr>
+      <section class="main-section" id="Authors">
+        <header>Authors</header>
+        <hr class="title-hr">
+        <strong>
+        <p>👩‍🎓 Danica L. Castro</p>
+        <p>👩‍🎓 Lenina Jemima V. Dizon</p>
+        <p>👩‍🎓 Alliyah Joyce M. Sarip</p>
+        <p>👨‍🎓 Mark Aaron P. Soriano</p>
+        </strong>
+      </section>
+
+    </main>
+  </body>
+<html>
