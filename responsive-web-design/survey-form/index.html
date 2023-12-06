@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="viewport" width="device-width, initial-scale=1.0">
+    <title>Stealing Your Data</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Steal Your Data Form</h1>
+    <p id="description">Now, your information is mine.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name
+          <input id="name" type="text" placeholder="Full Name" required>
+        </label>
+        <label for="email" id="email-label">Email
+          <input id="email" type="email" placeholder="Email Address" required>
+        </label>
+        <label for="number" id="number-label">Age
+          <input id="number" type="number" min="18" max="150" placeholder="Age in Years">
+        </label>
+        <label for="dropdown">Educational Attainment
+          <select id="dropdown">
+            <option value="" selected disabled>(select one)</option>
+            <option value="elementary">Elementary</option>
+            <option value="high-school">High School</option>
+            <option value="undergrad">Undergraduate</option>
+            <option value="grad">Graduate</option>
+          </select>
+        </label>
+        <label for="sex">Sex
+          <input id="sex" name="sex" type="radio" value="male"> Male
+          <input id="sex" name="sex" type="radio" value="female"> Female
+        </label>
+        <label for="likes">Likes
+          <input id="likes" type="checkbox" value="tech"> Tech
+          <input id="likes" type="checkbox" value="sports"> Sports
+          <input id="likes" type="checkbox" value="arts"> Arts
+          <input id="likes" type="checkbox" value="science"> Science
+        </label>
+        <label for="comment">Comments
+          <textarea id="comment" rows="5" cols="50"></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit">
+    </form>
+  </body>
+</html>
