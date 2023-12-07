@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zapphire Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" src="">
+          <span class="header-image material-symbols-outlined">palette</span>
+          <h1>Zapphire Gallery</h1>
+        </div>
+        <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+<a class="nav-link" href="#pricing">Pricing</a>
+<a class="nav-link" href="#contact">Contact Us</a>
+        </nav>
+      </header>
+
+      <section id="features">
+        <div class="features-wrapper">
+          <ul>
+            <li>
+              <h2>Premium Art Medium</h2>
+              <p>Drawn and rendered using colored pencils, graphite pencils, and charcoal.</p>
+            </li>
+            <li>
+              <h2>High Quality Paper</h2>
+              <p>Drawn on any size of paper <strong>not less than 100 gsm</strong> for maximum quality and texture.</p>
+            </li>
+            <li>
+              <h2>Sturdy Frame</h2>
+              <p>Comes with a wooden or metal <em>(subject to availability)</em> frame durable enough to stand the test of times.</p>
+            </li>
+            <li>
+              <h2>Quality Unboxing Experience</h2>
+              <p>Delivered in a <strong id="brown">BROWN</strong> gift box.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="video-wrapper">
+          <video id="video" loading="lazy" autoplay muted>
+            <source src="https://github.com/map-soriano/zapphire-gallery/assets/68729612/c18f3a3a-a624-4477-8b04-a94202d47f48" type="video/mp4" />
+          </video>
+      </div>
+      </section>
+
+      <section id="pricing">
+        <div class="pricing-wrapper">
+          <div class="price-card">
+            <div class="title">
+              <h4>Grayscaled Portrait</h4>
+            </div>
+
+            <div class="price-starts">
+              <p>Price starts at</p>
+            </div>
+
+            <div class="price">
+              <p>PHP 1,500.00</p>
+            </div>
+
+            <div class="description">
+              <ul>
+                <li>Drawn and rendered using <strong>graphite pencils</strong> and/or <strong>charcoal</strong></li>
+                <li>Letter (8.5" x 11") or A4 (8.268" x 11.693")</li>
+                <li>Wooden or Metal Frame <em>(Subject to availability)</em></li>
+                <li>Brown Gift Box</li>
+              </ul>
+            </div>
+          </div>
+
+        <div class="price-card">
+          <div class="title">
+            <h4>Colored portrait</h4>
+          </div>
+
+          <div class="price-starts">
+            <p>Price starts at</p>
+          </div>
+
+          <div class="price">
+            <p>PHP 1,800.00</p>
+          </div>
+          
+          <div class="description">
+            <ul>
+              <li>Drawn and rendered using <strong>colored pencils</strong></li>
+              <li>Letter (8.5" x 11") or A4 (8.268" x 11.693")</li>
+              <li>Wooden or Metal Frame <em>(Subject to availability)</em></li>
+              <li>Brown Gift Box</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section id="contact">
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+          <fieldset>
+            <legend>Send us a message</legend>
+            <label for="email">
+              <strong>Email Address:</strong> <input name="email" id="email" type="email" placeholder="Enter your email address" />
+            </label>
+            <br>
+            <br>
+            <label for="message">
+              <strong>Message:</strong><br> <textarea name="message" id="message" placeholder="Enter your message here..." rows="3" cols="50"></textarea>
+          </fieldset>
+          <input id="submit" type="submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

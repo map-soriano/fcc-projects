@@ -1,0 +1,176 @@
+:root {
+    --bg-color: #0d0d0d;
+    --nav-color: #262626;
+    --text-color: #f2f2f2;
+  }
+  
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 62.5%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  section {
+    margin-top: 20vh;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--nav-color);
+    font-size: 1.5em;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+  }
+  
+  nav a {
+    font-size: 1.25em;
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  #features {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    padding: 20px;
+  }
+  
+  .features-wrapper {
+    width: 50%;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  p {
+    font-size: 1.25em;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin-top: 10px;
+  }
+  
+  .video-wrapper {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .video-wrapper video {
+    max-width: 100%;
+    border: 1px solid var(--text-color);
+    border-radius: 20px;
+  }
+  
+  .pricing-wrapper { 
+    display: flex;
+    width: 100%;
+  }
+  
+  .price-card {
+    width: 50%;
+    margin: 0 50px;
+    border: 1px solid var(--text-color);
+    border-radius: 20px;
+  }
+  
+  .title {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .price-starts {
+    margin-top: 25px;
+    font-size: 0.75em;
+    text-indent: 2em;
+  }
+  
+  .price {
+    font-size: 2em;
+    font-weight: bold;
+    text-indent: 2em;
+  }
+  
+  .description {
+    font-size: 1.25em;
+    padding: 20px;
+  }
+  
+  #contact {
+    font-size: 2em;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  label {
+    margin-top: 20px;
+  }
+  
+  fieldset {
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  legend {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    font-family: inherit;
+    font-size: 1em;
+    background-color: var(--nav-color);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  #submit {
+    max-width: fit-content;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  ::placeholder {
+    font-size: 0.8em;
+    color: var(--text-color);
+  }
