@@ -4,7 +4,7 @@
 
 This is a repository for the projects that I have made in compliance to the curriculum and certification provided by freeCodeCamp.
 
-## 🏁 Certifications In-Progress
+## 🏎️ Certifications In-Progress
 - Front End Development Libraries Certification
 
 ## 🏁 Certifications Achieved
