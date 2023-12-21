@@ -2,7 +2,8 @@
 
 ## 🔥 About
 
-This is a repository for the projects that I have made in compliance to the curriculum and certification provided by freeCodeCamp.
+This is a repository for my projects in compliance with the curriculum and certification provided by freeCodeCamp.
+Here's a [direct link](https://www.freecodecamp.org/map-soriano) to the projects and certificates. Some of them will be updated in the future.
 
 ## 🏎️ Certifications In-Progress
 - Front End Development Libraries Certification
