@@ -14,4 +14,4 @@ Here's a [direct link](https://www.freecodecamp.org/map-soriano) to the projects
 
 ## 🛠️ What I've Learned So Far
 
-<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,jquery,react" alt="Tools I have learned">
+<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,jquery,react,redux" alt="Tools I have learned">
