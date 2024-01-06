@@ -1,9 +1,9 @@
-import HelloWorld from "./components/HelloWorld.tsx";
+import QuoteBox from "./components/QuoteBox";
 
 const App = () => {
   return (
     <div>
-      <HelloWorld />
+      <QuoteBox />
     </div>
   );
 };
