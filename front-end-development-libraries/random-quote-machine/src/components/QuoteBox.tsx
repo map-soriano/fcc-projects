@@ -29,9 +29,13 @@ const QuoteBox = () => {
       <p id="author" className="text-right">
         - {author}
       </p>
-      <button id="tweet-quote" className="btn btn-block btn-primary col-4">
+      <a
+        id="tweet-quote"
+        className="btn btn-block btn-primary col-4"
+        href="https://twitter.com/intent/tweet"
+      >
         Tweet
-      </button>
+      </a>
       <button className="btn btn-primary btn-block col-4">Post</button>
       <button
         id="new-quote"
