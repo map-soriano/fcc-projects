@@ -6,14 +6,19 @@ const QuoteBox = () => {
 
   const num = Math.floor(Math.random() * 16);
 
-  useEffect(() => {
+  const generate = () => {
     // fetch("https://animechan.xyz/api/random")
     fetch("https://type.fit/api/quotes")
       .then((res) => res.json())
       .then((quote) => {
         setQuote(quote[num].text);
         setAuthor(quote[num].author);
-      });
+      })
+      .catch((err) => console.error(err));
+  };
+
+  useEffect(() => {
+    generate();
   }, []);
 
   console.log(quote);
