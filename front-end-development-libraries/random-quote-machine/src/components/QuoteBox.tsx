@@ -12,7 +12,7 @@ const QuoteBox = () => {
       .then((res) => res.json())
       .then((quote) => {
         setQuote(quote[num].text);
-        setAuthor(quote[num].author);
+        setAuthor(quote[num].author.split(",")[0]);
       })
       .catch((err) => console.error(err));
   };
