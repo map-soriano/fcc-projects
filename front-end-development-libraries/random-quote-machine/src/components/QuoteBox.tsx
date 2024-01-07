@@ -34,7 +34,11 @@ const QuoteBox = () => {
         Tweet
       </button>
       <button className="btn btn-primary btn-block col-4">Post</button>
-      <button id="new-quote" className="btn btn-block btn-primary col-4">
+      <button
+        id="new-quote"
+        className="btn btn-block btn-primary col-4"
+        onClick={generate}
+      >
         New Quote
       </button>
     </>
