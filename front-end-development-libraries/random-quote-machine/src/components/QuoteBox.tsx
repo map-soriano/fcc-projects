@@ -21,7 +21,6 @@ const QuoteBox = () => {
     generate();
   }, []);
 
-  console.log(quote);
   return (
     <>
       <h1 id="text" className="text-center">
