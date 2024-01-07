@@ -1,8 +1,22 @@
+import { useState, useEffect } from "react";
+
 const QuoteBox = () => {
+  const [quote, setQuote] = useState([]);
+
+  const num = Math.floor(Math.random() * 16);
+
+  useEffect(() => {
+    // fetch("https://animechan.xyz/api/random")
+    fetch("https://type.fit/api/quotes")
+      .then((res) => res.json())
+      .then((quote) => setQuote(quote[num].text));
+  }, []);
+
+  console.log(quote);
   return (
     <>
       <h1 id="text" className="text-center">
-        Quote
+        {quote}
       </h1>
       <p id="author" className="text-right">
         - Quote Author
