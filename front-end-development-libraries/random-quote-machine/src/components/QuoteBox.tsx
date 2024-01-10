@@ -7,7 +7,6 @@ const QuoteBox = () => {
   const NUM = Math.floor(Math.random() * 16);
 
   const generate = () => {
-    // fetch("https://animechan.xyz/api/random")
     fetch("https://type.fit/api/quotes")
       .then((res) => res.json())
       .then((quote) => {
