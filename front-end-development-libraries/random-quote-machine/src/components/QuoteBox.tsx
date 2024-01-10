@@ -5,6 +5,12 @@ const QuoteBox = () => {
   const [author, setAuthor] = useState([]);
 
   const NUM = Math.floor(Math.random() * 16);
+
+  // Original Anime Quotes API
+  // const URL = "https://animechan.xyz/api/random"
+  // TODO: Implement when server is up
+
+  // For now use this:
   const URL = "https://type.fit/api/quotes";
 
   const generate = () => {
