@@ -5,9 +5,10 @@ const QuoteBox = () => {
   const [author, setAuthor] = useState([]);
 
   const NUM = Math.floor(Math.random() * 16);
+  const URL = "https://type.fit/api/quotes";
 
   const generate = () => {
-    fetch("https://type.fit/api/quotes")
+    fetch(URL)
       .then((res) => res.json())
       .then((quote) => {
         setQuote(quote[NUM].text);
