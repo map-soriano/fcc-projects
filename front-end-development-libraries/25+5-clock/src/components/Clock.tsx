@@ -18,10 +18,30 @@ const Clock = () => {
 
   return (
     <>
-      <h1 className="text-center">{sessionLength}</h1>
-      <button className="btn btn-primary" onClick={handleClick}>
-        Start
-      </button>
+      <div className="d-flex flex-column align-items-center">
+        <h1 className="">Timer: {sessionLength}</h1>
+        <div className="d-flex align-items-center">
+          <h1 className="">Break: {breakLength}</h1>
+          <div className="d-flex flex-column ms-3">
+            <button
+              className="btn btn-primary fs-3"
+              onClick={() => setBreakLength(breakLength + 1)}
+            >
+              ⬆️
+            </button>
+            <button
+              className="btn btn-primary fs-3"
+              onClick={() => setBreakLength(breakLength - 1)}
+            >
+              ⬇️
+            </button>
+          </div>
+        </div>
+
+        <button className="btn btn-primary" onClick={handleClick}>
+          Start
+        </button>
+      </div>
     </>
   );
 };
